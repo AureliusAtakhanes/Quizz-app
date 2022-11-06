@@ -18,7 +18,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
 
-  background-color: #E58C8A;
+  /* background-color: #E58C8A; */
 }
 
 .container {
@@ -88,7 +88,7 @@ label:hover::before {
   opacity: 0.8;
 }
 
-input[type="radio"]:checked + label::before {
+input[type="radio"]:checked+label::before {
   background-image: radial-gradient(circle, #ffffff 6px, transparent 7px);
 }
 
